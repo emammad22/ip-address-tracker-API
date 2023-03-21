@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* .container {
+    max-width: 1900px;
+    margin: 0 auto;
+} */
+
+/* header css begin */
+
+.header {
+    background-image: url(./images/header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+}
+
+.header .header-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-inner .header-name {
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.header-inner .search {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.header-inner .search input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 18px 20px;
+    flex-basis: 90%;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.header-inner .search input[type="text"]::placeholder {
+    font-family: "Rubik", sans-serif;
+}
+
+.search .search-btn {
+    flex-basis: 10%;
+    background: #2c2c2c;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.search .search-btn:hover {
+    background: #3f3f3f;
+}
+/* header css end */
+
+/* section css begin */
+
+.section {
+    position: absolute;
+    top: 200px;
+    left: 390px;
+    z-index: 999;
+}
+
+.section .section-inner {
+    width: 1110px;
+    height: 160px;
+    background: #ffffff;
+    box-shadow: 0px 50px 50px -25px rgba(0, 0, 0, 0.0983665);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 37px 32px;
+}
+
+.section-inner .info-ip {
+    flex-basis: 100%;
+    height: 57px;
+    display: flex;
+    padding: 0 70px;
+    gap: 20px;
+}
+
+.info-ip div {
+    border-right: 1px solid #000;
+    width: 213px;
+    height: 57px;
+}
+
+.info-ip .isp-section {
+    border: none;
+}
+
+.info-ip .head {
+    color: #2c2c2c;
+    margin: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+
+.info-ip .info {
+    font-size: 26px;
+    color: #2c2c2c;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* section css end */
+
+/* main css begin */
+
+#map {
+    width: 100%;
+    height: 670px;
+}
+
+/* main css end */
